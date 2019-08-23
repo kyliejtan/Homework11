@@ -1,0 +1,131 @@
+.background-img {
+  background-size: cover;
+  max-width: 100%;
+  z-index: -1;
+}
+
+.container {
+  margin: 0px;
+  margin-top: 50px;
+  position: relative;
+  max-width: 100%;
+  padding: 0px;
+}
+
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  overflow: auto;
+}
+
+/* Multi-level Dropdown */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*  */
+.btn.btn-primary {
+  margin-top: 2px;
+}
+/* Animated Page Title */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+#title {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.the-truth {
+  animation: showup 20s infinite;
+  font-size:5vw;
+  color: lightgrey;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
+.is-out-there {
+  width:0px;
+  animation: reveal 20s infinite;
+}
+
+.is-out-there span {
+  margin-left:-355px;
+  animation: slidein 20s infinite;
+  color: lightgrey;
+  font-size:5vw;
+  position: absolute;
+  top: 10%;
+  left:48%;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-25%; }
+    20% { margin-left:-25%; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:0;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}

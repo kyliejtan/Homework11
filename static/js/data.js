@@ -49,7 +49,7 @@ var data = [{
     state: "or",
     country: "us",
     shape: "triangle",
-    durationMinutes: "a few mintues",
+    durationMinutes: "3 mintues",
     comments: "Triangle shaped craft with three red lights at points hovering over Grants Pass&#44 Oregon."
   },
   {
@@ -67,7 +67,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "light",
-    durationMinutes: "about 15 minutes",
+    durationMinutes: "15 minutes",
     comments: "3 Red lights in line pattern above El Cajon/ East County."
   },
   {
@@ -112,7 +112,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "light",
-    durationMinutes: "10:00",
+    durationMinutes: "10 min",
     comments: "Three bright red lights in a straight line formation"
   },
   {
@@ -166,7 +166,7 @@ var data = [{
     state: "ak",
     country: "us",
     shape: "light",
-    durationMinutes: "one minute",
+    durationMinutes: "1 minute",
     comments: "Upper atmosphere object moving south&#44 becoming stationary and later moving east at a high rate of speed."
   },
   {
@@ -229,7 +229,7 @@ var data = [{
     state: "fl",
     country: "us",
     shape: "unknown",
-    durationMinutes: 15,
+    durationMinutes: "15 min",
     comments: "Six flickering orange lights over baker"
   },
   {
@@ -283,7 +283,7 @@ var data = [{
     state: "nm",
     country: "us",
     shape: "light",
-    durationMinutes: "half an hour",
+    durationMinutes: "30 min",
     comments: "My wife and I were outside in the Jacuzzi when she first saw a light.  It glowed and traveled from north to south.  It lit up again whe"
   },
   {
@@ -400,7 +400,7 @@ var data = [{
     state: "va",
     country: "us",
     shape: "changing",
-    durationMinutes: "abt 1 hour",
+    durationMinutes: "1 hour",
     comments: "Spherical flashing lights&#44 hovering in the northwestern sky&#44 no sound.  ((NUFORC Note:  Possible sighting of celestial body??  PD))"
   },
   {
@@ -409,7 +409,7 @@ var data = [{
     state: "oh",
     country: "us",
     shape: "triangle",
-    durationMinutes: "downtown",
+    durationMinutes: "0 min",
     comments: "is it a ufo"
   },
   {
@@ -454,7 +454,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "light",
-    durationMinutes: "noticed from dusk to dawn",
+    durationMinutes: "12 hours",
     comments: "&quot;Fake stars&quot; over San Diego&#44 CA"
   },
   {
@@ -517,7 +517,7 @@ var data = [{
     state: "sc",
     country: "us",
     shape: "light",
-    durationMinutes: "seven minutes",
+    durationMinutes: "7 minutes",
     comments: "Orange light that set down in woods&#44 got brighter&#44 then left"
   },
   {
@@ -589,7 +589,7 @@ var data = [{
     state: "ma",
     country: "us",
     shape: "light",
-    durationMinutes: "approx. 1 sec.",
+    durationMinutes: "1 sec.",
     comments: "Bright Florissant-green&#44 circular light arching downward with a trail of the same color.  ((NUFORC Note:  Possible meteor?  PD))"
   },
   {
@@ -652,7 +652,8 @@ var data = [{
     state: "tn",
     country: "us",
     shape: "other",
-    durationMinutes: "unknown",
+    durationMinutes: "0",
+
     comments: "my daughter went with her mother to look for a job&#44 at hickery springs mfco.she toke a picture of her self seting in the drivers set. a"
   },
   {
@@ -670,7 +671,7 @@ var data = [{
     state: "nj",
     country: "us",
     shape: "light",
-    durationMinutes: "nine minutes",
+    durationMinutes: "9 minutes",
     comments: "Saw two lights that were not planes."
   },
   {
@@ -688,7 +689,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "triangle",
-    durationMinutes: 20,
+    durationMinutes: "20",
     comments: "((HOAX??))  1/9/19 DURATION 20:00 FREEDOM CA  IT WAS A TRIANGLE BUT FIRST IT WAS ONE LIGHT"
   },
   {
@@ -706,7 +707,7 @@ var data = [{
     state: "mi",
     country: "us",
     shape: "formation",
-    durationMinutes: "several hours",
+    durationMinutes: "3 hours",
     comments: "Southeast sky early in the evening&#44 Blue&#44 Green and Red Lights.  ((NUFORC Note:  Possible sighting of Sirius??  PD))"
   },
   {
@@ -724,7 +725,7 @@ var data = [{
     state: "oh",
     country: "us",
     shape: "light",
-    durationMinutes: "not sure",
+    durationMinutes: "0",
     comments: "cinti&#44ohio      23:00   light in back yard"
   },
   {
@@ -868,7 +869,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "oval",
-    durationMinutes: "unknown",
+    durationMinutes: "0",
     comments: "Shape was black in color"
   },
   {
@@ -931,7 +932,7 @@ var data = [{
     state: "ar",
     country: "us",
     shape: "other",
-    durationMinutes: "night",
+    durationMinutes: "0",
     comments: "((HOAX??))  a strange ball of fire&#44 like after burners."
   },
   {

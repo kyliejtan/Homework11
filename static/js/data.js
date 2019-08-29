@@ -139,7 +139,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "light",
-    durationMinutes: "10min",
+    durationMinutes: "10 min",
     comments: "3 red lights in sky new years 2010"
   },
   {
@@ -328,7 +328,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "triangle",
-    durationMinutes: "4min",
+    durationMinutes: "4 min",
     comments: "Triangle shaped object spotted over Sacramento River."
   },
   {
@@ -641,7 +641,7 @@ var data = [{
     datetime: "1/9/2010",
     city: "london (canada)",
     state: "on",
-    country: "ca",
+    country: "canada",
     shape: "disk",
     durationMinutes: "10-20 mins",
     comments: "very close encounter with what i truley cant imagine"
@@ -652,7 +652,7 @@ var data = [{
     state: "tn",
     country: "us",
     shape: "other",
-    durationMinutes: "0",
+    durationMinutes: "0 min",
 
     comments: "my daughter went with her mother to look for a job&#44 at hickery springs mfco.she toke a picture of her self seting in the drivers set. a"
   },
@@ -689,7 +689,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "triangle",
-    durationMinutes: "20",
+    durationMinutes: "20 min",
     comments: "((HOAX??))  1/9/19 DURATION 20:00 FREEDOM CA  IT WAS A TRIANGLE BUT FIRST IT WAS ONE LIGHT"
   },
   {
@@ -725,7 +725,7 @@ var data = [{
     state: "oh",
     country: "us",
     shape: "light",
-    durationMinutes: "0",
+    durationMinutes: "0 min",
     comments: "cinti&#44ohio      23:00   light in back yard"
   },
   {
@@ -806,7 +806,7 @@ var data = [{
     state: "la",
     country: "us",
     shape: "oval",
-    durationMinutes: "15:00 mins",
+    durationMinutes: "15 mins",
     comments: "Two objects meet then leave each other one to the east and one to the west"
   },
   {
@@ -869,7 +869,7 @@ var data = [{
     state: "ca",
     country: "us",
     shape: "oval",
-    durationMinutes: "0",
+    durationMinutes: "0 min",
     comments: "Shape was black in color"
   },
   {
@@ -894,7 +894,7 @@ var data = [{
     datetime: "1/11/2010",
     city: "ingleside (canada)",
     state: "on",
-    country: "ca",
+    country: "canada",
     shape: "triangle",
     durationMinutes: "5 minutes",
     comments: "triangle shaped craft with four coloured lights"
@@ -932,7 +932,7 @@ var data = [{
     state: "ar",
     country: "us",
     shape: "other",
-    durationMinutes: "0",
+    durationMinutes: "0 min",
     comments: "((HOAX??))  a strange ball of fire&#44 like after burners."
   },
   {
@@ -959,7 +959,7 @@ var data = [{
     state: "wi",
     country: "us",
     shape: "disk",
-    durationMinutes: "15minutes",
+    durationMinutes: "15 minutes",
     comments: "five glowning globes over waukesha&#44wi"
   },
   {

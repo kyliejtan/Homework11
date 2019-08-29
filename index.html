@@ -26,8 +26,34 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Members</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Members
+            </a>
+            <div class="dropdown-menu">
+              <form class="px-4 py-3">
+                <div class="form-group">
+                  <label for="exampleDropdownFormEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleDropdownFormPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">New around here? Sign up</a>
+              <a class="dropdown-item" href="#">Forgot password?</a>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -68,6 +94,45 @@
               <button type="submit" class="btn btn-primary clear">Clear Form</button>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="modal" data-target="#exampleModal" aria-haspopup="true" aria-expanded="false">
+              Search Help
+            </a>
+          </li>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Search Help</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    To search UFO sighting data, please use the search dropdown
+                    that can be activated by clicking the SEARCH button in the
+                    navbar. From the search dropdown you can select the search
+                    criteria you like to use to filter your search by checking
+                    the checkbox next to any search term you would like to
+                    include in your search. To initiate your search, click the
+                    SEARCH button in the dropdown. If you would like to clear
+                    your search results and all of the checkboxes you have
+                    previously checked, click the CLEAR FORM button in the
+                    dropdown. You can view our entire database by leaving all
+                    of the checkboxes blank and clicking SEARCH.
+                   </p>
+                   <p>
+                     Thank you for using the UFO Secrets database search
+                     utility.
+                   </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
           <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
           </li>
@@ -75,25 +140,27 @@
       </div>
     </nav>
     <div class="container">
-        <img class="background-img" src="https://entepic.info/wp-content/uploads/2019/01/3840x1080-wallpaper-space-74-images-space-earth-nasa-hd-wallpapers-52.jpg"/>
-        <div class="the-truth" id="title">The Truth</div>
-        <div class="is-out-there" id="title">
-            <span>is out there</span>
-        </div>
-    </div>
-    <div class="col-md-10">
-      <div id="table-area" class="">
-        <table id="ufo-table" class="table table-striped">
-          <thead>
-            <tr>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+      <img class="background-img" src="https://entepic.info/wp-content/uploads/2019/01/3840x1080-wallpaper-space-74-images-space-earth-nasa-hd-wallpapers-52.jpg"/>
+      <div class="the-truth" id="title">The Truth</div>
+      <div class="is-out-there" id="title">
+          <span>is out there</span>
       </div>
-    <div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 align-self-center" id="table-area">
+          <table id="ufo-table" class="table table-striped">
+            <thead>
+              <tr>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        <div>
+      </div>
+    </div>
     <footer class="footer">
-      <span class="bottom">UFO Sightings</span>
+      <span class="bottom"></span>
     </footer>
     </div>
   </div>

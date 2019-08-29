@@ -12,6 +12,9 @@
   padding: 0px;
 }
 
+#table-area {
+  margin:20px
+}
 
 .wrapper {
   position: relative;

@@ -66,7 +66,7 @@ data.forEach(sighting => {
     state: sighting.state.toUpperCase(),
     country: countryNameFormatter(sighting.country),
     shape: titleCase(sighting.shape),
-    durationMinutes: timeToMinutes(sighting.durationMinutes),
+    durationMinutes: (timeToMinutes(sighting.durationMinutes)),
     comments: sighting.comments
   })
 });
@@ -173,7 +173,7 @@ function searchClick() {
   row.append("th").text("State");
   row.append("th").text("Country");
   row.append("th").text("Shape");
-  row.append("th").text("Duration");
+  row.append("th").text("Duration (min)");
   row.append("th").text("Comments");
   // Using a for-loop to append each sighting matching the user-selected terms
   // to a new row
@@ -184,7 +184,7 @@ function searchClick() {
     row.append("td").text(sighting.state);
     row.append("td").text(sighting.country);
     row.append("td").text(sighting.shape);
-    row.append("td").text(sighting.duration);
+    row.append("td").text(sighting.durationMinutes);
     row.append("td").text(sighting.comments);
   })
 };
